@@ -1,6 +1,6 @@
-# Mixed Reality Tabletop Game for Meta Quest 3
+# Mixed Reality Tabletop Development for Meta Quest 3
 
-Welcome to the Mixed Reality Unity Game App repository! This project brings your physical space to life by spawning interactive 3D assets onto detected tables in a room, using the Meta Quest 3’s room-scanning capabilities.
+This is a learning demonstration project created to understand the Unity ecosystem and how to develop with it for the Meta Quest 3. The simple project used a scanned room, and spawns a "Grabbable King" object onto detected horizontal tables. That object is interactable, and respects physics. I learned most of these techniques from YouTuber Ludic Worlds, with this playlist: https://www.youtube.com/playlist?list=PLWcLPdrF6kOno_LNP846xfzeWYl5h6S5I
 
 ## 🟢 Features
 
@@ -21,7 +21,7 @@ Welcome to the Mixed Reality Unity Game App repository! This project brings your
 
 1. **Clone the Repository:**
    ```sh
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone https://github.com/hypertechnic/Unity-Quest-MR.git
    ```
 
 2. **Open in Unity:**
@@ -43,36 +43,7 @@ Welcome to the Mixed Reality Unity Game App repository! This project brings your
 2. Enable Developer Mode on the headset.
 3. Use ADB to install the APK:
    ```sh
-   adb install path/to/your-apk.apk
+   adb install path/to/game.apk
    ```
 
-## 🛠 Requirements
-
-- Meta Quest 3 headset
-- Unity (recommended version)
-- Oculus Integration package
-
-## 📘 Documentation
-
-See the [Documentation](./Documentation) folder for detailed setup guides, API references, and customization options.
-
-## 🧠 Future Improvements
-
-- Multiplayer support
-- Customizable object behaviors
-- Enhanced physics and collision effects
-
-## 👥 Contributing
-
-Contributions are welcome! Feel free to submit issues, feature requests, or pull requests.
-
-## 🛡 License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
----
-
-Enjoy building immersive experiences with Meta Quest 3! 🎮✨
-
-If you’d like me to tweak anything or add more details, just let me know! 🚀
 
